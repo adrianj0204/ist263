@@ -1,4 +1,27 @@
-h1 {color: plum;
+h1 {
+    color: plum;
     font-size: 80%;
 }
-p {color: cadetblue;}
+
+p {
+    color: cadetblue;
+}
+
+/*grouped selctor will style all h1's and p's */
+h1,
+p {
+    color: purple;
+    font-size: 80%;
+}
+
+/* p a{color:cadetblue;}
+this styles inside of a p tag
+    its called a descendant selector
+this is our basic element used for links in paragraphs, chaning the color  
+
+this styles the id*/
+#secondparagraph {color:darkmagenta;}
+/*this styles for class*/
+
+.purpletext {color: green;}
+
